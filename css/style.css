@@ -1,0 +1,219 @@
+/* font-family: "Wittgenstein", serif; */
+
+/* overlay bg
+
+background-color: rgba(214, 46, 51, 0.6);
+
+*/
+
+/* 
+--red: #dc3545;
+    --pink: #e83e8c;
+*/
+
+/* 
+
+background-color: #ccc;
+*/
+
+
+
+
+#Home {
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    position: relative;
+
+    .overlay {
+        background-color: rgba(214, 46, 51, 0.6);
+
+        #side-nav {
+            width: 0;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            left: 0;
+            /* transition: all 0.5s; */
+            z-index: 1000;
+            overflow: hidden;
+
+            a {
+                font-family: "Wittgenstein", serif;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 38px;
+                color: white;
+                transition: all 0.3s;
+                display: block;
+            }
+
+            a:hover {
+                color: #dc3545;
+                /* rgba(214, 46, 51, 0.4) */
+            }
+        }
+
+        #home-content {
+            h2 {
+                font-family: "Wittgenstein", serif;
+                font-size: 60px;
+                font-weight: 500;
+                line-height: 72px;
+            }
+
+            p {
+                font-family: "Wittgenstein", serif;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+            }
+
+            span {
+                font-family: "Wittgenstein", serif;
+                font-size: 34px;
+                font-weight: 400;
+                line-height: 45px;
+                cursor: pointer;
+            }
+        }
+
+    }
+
+}
+
+#sliderDown {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    h3 {
+        background-color: rgba(214, 46, 51, 0.6);
+        font-family: "Wittgenstein", serif;
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 34px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .content {
+        display: none;
+    }
+
+    p {
+        background-color: #ccc;
+        font-family: "Wittgenstein", serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(33, 37, 41);
+    }
+}
+
+#counter {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+    .overlay {
+        background-color: rgba(214, 46, 51, 0.6);
+        width: 100%;
+        height: 100%;
+
+        .item {
+            font-family: "Wittgenstein", serif;
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 45px;
+            color: white;
+        }
+
+    }
+}
+
+#contact {
+    font-family: "Wittgenstein", serif;
+
+    h2 {
+        /* font-family: "Wittgenstein", serif; */
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 42px;
+        color: rgb(68, 68, 68);
+    }
+
+    p {
+        /* font-family: "Wittgenstein", serif; */
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 24px;
+        color: rgb(119, 119, 119);
+    }
+
+    .contact-info {
+        h3 {
+            font-size: 22px;
+            font-weight: 900;
+            line-height: 22px;
+            color: rgb(68, 68, 68);
+        }
+
+        .icons {
+            i {
+                color: #777;
+            }
+        }
+
+        .social-icon {
+            i {
+                border: 1px solid #878787;
+                color: #777;
+                font-size: 20px;
+                transition: all 0.5s;
+            }
+
+            i:hover {
+                background-color: #dc3545;
+                color: white;
+                border: none;
+            }
+        }
+    }
+
+    form {
+        textarea {
+            min-height: 230px;
+        }
+
+        p {
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 24px;
+            color: rgb(33, 37, 41);
+        }
+
+        span {
+            color: #dc3545;
+        }
+
+        button {
+            display: block;
+            margin-top: 20px;
+            background-color: #dc3545;
+            font-family: "Wittgenstein", serif;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 24px;
+            color: white;
+            transition: all 0.5s;
+        }
+
+        button:hover {
+            background-color: #ef4354;
+        }
+    }
+}
